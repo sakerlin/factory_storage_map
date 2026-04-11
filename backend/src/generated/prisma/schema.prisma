@@ -1,0 +1,35 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model StorageRecord {
+  id          Int      @id @default(autoincrement())
+  fgId        Int?
+  pdnum       String
+  pdName      String
+  zone        String
+  area        String
+  subArea     String
+  code        String   @default("")
+  storageType String?
+  unit        String?
+  storageNum  Float    @default(0)
+  lastModify  String?
+  operator    String?
+  extype      String?
+  stockChange String?
+  source      String   @default("manual")
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@unique([subArea, pdnum, code])
+  @@index([zone])
+  @@index([subArea])
+  @@index([pdnum])
+}

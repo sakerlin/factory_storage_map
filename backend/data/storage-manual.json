@@ -1,0 +1,380 @@
+{
+  "updatedAt": "2026-04-11T05:44:54.709Z",
+  "notes": [
+    "這是離線示範資料，可直接手動編輯 subAreas 內各區資料。",
+    "每個 subArea value 都是陣列，元素欄位可參考現有範例。",
+    "修改後可執行 npm run cache:build-manual，或在前端按「刷新本地快取」。"
+  ],
+  "subAreas": {
+    "A0": [
+      {
+        "fgId": null,
+        "pdnum": "A0-APEX-003",
+        "pdName": "螺旋槳替換組",
+        "zone": "A",
+        "area": "0",
+        "code": "A0-R01",
+        "storageType": "apex",
+        "unit": "PCS",
+        "storageNum": 200,
+        "lastModify": "2026-04-11 13:44:54",
+        "operator": "admin-ui",
+        "extype": "",
+        "stockChange": null
+      },
+      {
+        "fgId": null,
+        "pdnum": "DEMO-A0-001",
+        "pdName": "鋁框支架組",
+        "zone": "A",
+        "area": "0",
+        "code": "A0-R01",
+        "storageType": "RACK",
+        "unit": "PCS",
+        "storageNum": 48,
+        "lastModify": "2026-04-11 12:00:00",
+        "operator": "offline-seed",
+        "extype": "",
+        "stockChange": null
+      },
+      {
+        "fgId": null,
+        "pdnum": "DEMO-A0-002",
+        "pdName": "固定螺帽包",
+        "zone": "A",
+        "area": "0",
+        "code": "A0-R02",
+        "storageType": "BIN",
+        "unit": "BAG",
+        "storageNum": 320,
+        "lastModify": "2026-04-11 12:00:00",
+        "operator": "offline-seed",
+        "extype": "",
+        "stockChange": null
+      }
+    ],
+    "A1": [],
+    "A2": [],
+    "A3": [],
+    "A4": [],
+    "A5": [],
+    "A6": [],
+    "A7": [],
+    "B0": [],
+    "B1": [],
+    "B2": [
+      {
+        "fgId": null,
+        "pdnum": "DEMO-B2-001",
+        "pdName": "半成品外殼",
+        "zone": "B",
+        "area": "2",
+        "code": "B2-L01",
+        "storageType": "PALLET",
+        "unit": "BOX",
+        "storageNum": 15,
+        "lastModify": "2026-04-11 12:00:00",
+        "operator": "offline-seed",
+        "extype": "",
+        "stockChange": null
+      }
+    ],
+    "B3": [],
+    "B4": [],
+    "B5": [],
+    "B6": [],
+    "B7": [],
+    "C0": [],
+    "C1": [],
+    "C2": [],
+    "C3": [
+      {
+        "fgId": null,
+        "pdnum": "DEMO-C3-001",
+        "pdName": "藍色包材",
+        "zone": "C",
+        "area": "3",
+        "code": "C3-R03",
+        "storageType": "RACK",
+        "unit": "ROLL",
+        "storageNum": 120,
+        "lastModify": "2026-04-11 12:00:00",
+        "operator": "offline-seed",
+        "extype": "",
+        "stockChange": null
+      }
+    ],
+    "C4": [],
+    "C5": [],
+    "C6": [],
+    "C7": [],
+    "C8": [],
+    "C9": [],
+    "D0": [],
+    "D1": [],
+    "D2": [],
+    "D3": [],
+    "D4": [
+      {
+        "fgId": null,
+        "pdnum": "DEMO-D4-001",
+        "pdName": "待檢治具",
+        "zone": "D",
+        "area": "4",
+        "code": "D4-QA",
+        "storageType": "HOLD",
+        "unit": "SET",
+        "storageNum": 7,
+        "lastModify": "2026-04-11 12:00:00",
+        "operator": "offline-seed",
+        "extype": "",
+        "stockChange": null
+      }
+    ],
+    "D5": [],
+    "D6": [],
+    "D7": [],
+    "D8": [],
+    "D9": [],
+    "E0": [],
+    "E1": [],
+    "E2": [],
+    "E3": [],
+    "E4": [],
+    "E5": [],
+    "E6": [],
+    "E7": [],
+    "E8": [],
+    "E9": [],
+    "F5": [
+      {
+        "fgId": null,
+        "pdnum": "DEMO-F5-001",
+        "pdName": "已檢成品",
+        "zone": "F",
+        "area": "5",
+        "code": "F5-QA",
+        "storageType": "PALLET",
+        "unit": "BOX",
+        "storageNum": 18,
+        "lastModify": "2026-04-11 12:00:00",
+        "operator": "offline-seed",
+        "extype": "",
+        "stockChange": null
+      }
+    ],
+    "F6": [
+      {
+        "fgId": null,
+        "pdnum": "DEMO-F6-001",
+        "pdName": "待驗包裝件",
+        "zone": "F",
+        "area": "6",
+        "code": "F6-H01",
+        "storageType": "HOLD",
+        "unit": "BOX",
+        "storageNum": 11,
+        "lastModify": "2026-04-11 12:00:00",
+        "operator": "offline-seed",
+        "extype": "",
+        "stockChange": null
+      }
+    ],
+    "F7": [
+      {
+        "fgId": null,
+        "pdnum": "DEMO-F7-001",
+        "pdName": "折盒耗材",
+        "zone": "F",
+        "area": "7",
+        "code": "F7-M01",
+        "storageType": "BIN",
+        "unit": "PCS",
+        "storageNum": 230,
+        "lastModify": "2026-04-11 12:00:00",
+        "operator": "offline-seed",
+        "extype": "",
+        "stockChange": null
+      }
+    ],
+    "F8": [
+      {
+        "fgId": null,
+        "pdnum": "DEMO-F8-001",
+        "pdName": "備援紙箱",
+        "zone": "F",
+        "area": "8",
+        "code": "F8-R03",
+        "storageType": "RACK",
+        "unit": "BOX",
+        "storageNum": 33,
+        "lastModify": "2026-04-11 12:00:00",
+        "operator": "offline-seed",
+        "extype": "",
+        "stockChange": null
+      }
+    ],
+    "F9": [
+      {
+        "fgId": null,
+        "pdnum": "DEMO-F9-001",
+        "pdName": "退貨暫存區",
+        "zone": "F",
+        "area": "9",
+        "code": "F9-RTN",
+        "storageType": "HOLD",
+        "unit": "BOX",
+        "storageNum": 6,
+        "lastModify": "2026-04-11 12:00:00",
+        "operator": "offline-seed",
+        "extype": "",
+        "stockChange": null
+      }
+    ],
+    "F0": [
+      {
+        "fgId": null,
+        "pdnum": "DEMO-F0-001",
+        "pdName": "成品外箱",
+        "zone": "F",
+        "area": "0",
+        "code": "F0-R01",
+        "storageType": "RACK",
+        "unit": "BOX",
+        "storageNum": 42,
+        "lastModify": "2026-04-11 12:00:00",
+        "operator": "offline-seed",
+        "extype": "",
+        "stockChange": null
+      }
+    ],
+    "F1": [
+      {
+        "fgId": null,
+        "pdnum": "DEMO-F1-001",
+        "pdName": "防撞包材",
+        "zone": "F",
+        "area": "1",
+        "code": "F1-R02",
+        "storageType": "BIN",
+        "unit": "BAG",
+        "storageNum": 180,
+        "lastModify": "2026-04-11 12:00:00",
+        "operator": "offline-seed",
+        "extype": "",
+        "stockChange": null
+      }
+    ],
+    "F2": [
+      {
+        "fgId": null,
+        "pdnum": "DEMO-F2-001",
+        "pdName": "待包裝半成品",
+        "zone": "F",
+        "area": "2",
+        "code": "F2-P01",
+        "storageType": "PALLET",
+        "unit": "SET",
+        "storageNum": 24,
+        "lastModify": "2026-04-11 12:00:00",
+        "operator": "offline-seed",
+        "extype": "",
+        "stockChange": null
+      }
+    ],
+    "F3": [
+      {
+        "fgId": null,
+        "pdnum": "DEMO-F3-001",
+        "pdName": "標籤紙卷",
+        "zone": "F",
+        "area": "3",
+        "code": "F3-L01",
+        "storageType": "SHELF",
+        "unit": "ROLL",
+        "storageNum": 65,
+        "lastModify": "2026-04-11 12:00:00",
+        "operator": "offline-seed",
+        "extype": "",
+        "stockChange": null
+      }
+    ],
+    "F4": [
+      {
+        "fgId": null,
+        "pdnum": "DEMO-F4-001",
+        "pdName": "封箱膠帶",
+        "zone": "F",
+        "area": "4",
+        "code": "F4-S01",
+        "storageType": "SHELF",
+        "unit": "ROLL",
+        "storageNum": 96,
+        "lastModify": "2026-04-11 12:00:00",
+        "operator": "offline-seed",
+        "extype": "",
+        "stockChange": null
+      }
+    ],
+    "G9": [],
+    "G8": [],
+    "G7": [],
+    "G6": [],
+    "G5": [],
+    "G4": [],
+    "G3": [],
+    "G2": [],
+    "G1": [],
+    "G0": [],
+    "I0": [],
+    "I1": [],
+    "I2": [],
+    "I3": [],
+    "I4": [],
+    "I5": [],
+    "I6": [],
+    "I7": [],
+    "I8": [],
+    "I9": [],
+    "J0": [],
+    "J1": [],
+    "J2": [
+      {
+        "fgId": null,
+        "pdnum": "DEMO-J2-001",
+        "pdName": "出貨紙箱",
+        "zone": "J",
+        "area": "2",
+        "code": "J2-S01",
+        "storageType": "RACK",
+        "unit": "PCS",
+        "storageNum": 86,
+        "lastModify": "2026-04-11 12:00:00",
+        "operator": "offline-seed",
+        "extype": "",
+        "stockChange": null
+      }
+    ],
+    "J3": [],
+    "J4": [],
+    "J5": [],
+    "H1": [],
+    "H0": [
+      {
+        "fgId": null,
+        "pdnum": "DEMO-H0-001",
+        "pdName": "維修備品箱",
+        "zone": "H",
+        "area": "0",
+        "code": "H0-MRO",
+        "storageType": "SHELF",
+        "unit": "BOX",
+        "storageNum": 12,
+        "lastModify": "2026-04-11 12:00:00",
+        "operator": "offline-seed",
+        "extype": "",
+        "stockChange": null
+      }
+    ]
+  }
+}

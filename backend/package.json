@@ -1,0 +1,22 @@
+{
+  "name": "factory-map-backend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "cache:build-manual": "node src/scripts/build-manual-storage-cache.js",
+    "cache:export": "node src/scripts/export-storage-cache.js",
+    "db:generate": "prisma generate",
+    "db:push": "node src/scripts/push-prisma-schema.js",
+    "db:sync-manual": "node src/scripts/sync-manual-storage-to-db.js",
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "prisma": "^6.7.0"
+  }
+}
